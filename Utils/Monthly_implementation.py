@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import Imputer
 
-class CleanerMonthly():
+class CleanerMonthly:
     """
     This class is for fill nan values of a column 
     using the mean value of a certain month of that column.
