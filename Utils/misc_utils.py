@@ -65,4 +65,3 @@ def predict(df, feature_col, clf):
     predict_df = preprocessing.scale(predict_df)
     predicted = clf.predict(predict_df)
     return predicted
-
