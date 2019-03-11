@@ -1,7 +1,7 @@
 # Data&GIS Lab Data Wrangling Contest
 * Author: Yuan Gao
 * Academic Standing: Freshman
-* UCSD PID: A15605474
+* Result: Winner
 ## Dataset: Hourly Weather Surface - Brazil (Southeast region).
 * In this contest I am given a huge csv file (raw file can be downloaded [here](https://www.kaggle.com/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region)) with almost 10 million rows of data and with lots of missing values. I have cleaned up these columns and cleaned csv can be downloaded [here](https://drive.google.com/open?id=1Ca0d4G3vW3Fav_rQYOYqtBFRS7lJv1Vm).
 ## Skills involved
