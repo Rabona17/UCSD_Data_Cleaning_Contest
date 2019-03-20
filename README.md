@@ -16,4 +16,5 @@
 * Null values in `wdsp`, `wdct`, `gust` are implemented by using previous five values, with a minimam threshold dealing with consecutive nans.
 * Null values in `tmax`, `tmin`, `smax`, `smin`, `dmax`, `dmin` are implemented by adding a value to corresponding columns. For instance, I implement `tmax` by first calculating the mean of the difference between non-missing `tmax` and `temp` and then add the number to `temp` in columns missing `tmax`
 * Dropped values: A group in `wsnm` called `JACAREPAGUA` in Rio De Janiero contains mostly (more than 99%) nan values, which could not provide any useful informations, so instead of filling them, I dropped them.
-
+## Cannot view the notbook on github?
+Go to the [nbviewer](https://nbviewer.jupyter.org/github/Rabona17/UCSD_Data_Cleaning_Contest/blob/master/Demo.ipynb) for better rendering on this project!
